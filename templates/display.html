@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Display File</title>
+</head>
+<body>
+    <h2>File name is {{filename}}</h2>
+    
+    <div>
+        {% if isStatic == False %}
+            {% for item1 in textLines1 %}
+            {{ item1 }}<br>
+            {% endfor %}
+        {% else %}
+            <pre>{% print(textLines1) %}</pre>
+        {% endif %}
+    </div>
+    
+</body>
+</html>
