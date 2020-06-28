@@ -1,0 +1,3 @@
+setup required command:
+- pip install flask
+- pip install beautifulsoup4
